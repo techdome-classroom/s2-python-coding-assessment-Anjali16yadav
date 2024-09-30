@@ -32,12 +32,12 @@ class Solution(object):
         # After processing all characters, the stack should be empty if the string is valid
         return not stack
 
-# Example usage:
-sol = Solution()
-print(sol.isValid("()"))        # Output: True
-print(sol.isValid("()[]{}"))    # Output: True
-print(sol.isValid("(]"))        # Output: False
-print(sol.isValid("{[]}"))      # Output: True
+# # Example usage:
+# sol = Solution()
+# print(sol.isValid("()"))        # Output: True
+# print(sol.isValid("()[]{}"))    # Output: True
+# print(sol.isValid("(]"))        # Output: False
+# print(sol.isValid("{[]}"))      # Output: True
 
 
 
